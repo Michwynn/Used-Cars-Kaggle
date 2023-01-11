@@ -3,3 +3,6 @@ Packages <- c("tidyr", "ggplot2", "dplyr", "tibble", "quantmod",
               "TTR", "ggthemes", "corrplot" , "Hmisc", "datasets")
 
 lapply(Packages, library, character.only = TRUE)
+
+# Seed Randomisation
+RANDOM_SEED = 42
