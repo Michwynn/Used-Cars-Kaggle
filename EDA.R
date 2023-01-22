@@ -1,4 +1,4 @@
-data <- tbl_df(read.csv(file = 'used_cars_data.csv'))
+data <- tibble::as_tibble((read.csv(file = 'used_cars_data.csv')))
 colnames(data)
 
 
